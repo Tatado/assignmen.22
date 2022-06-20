@@ -1,0 +1,45 @@
+1.
+Get the Type Code. ...
+Get Size of Array Item. ...
+Count the Number of Occurrences. ...
+Append and Extend. ...
+Manipulating the Index. ...
+Array to List.
+2.
+An array which is formed will be homogeneous. That is, in an integer array only integer values can be stored,
+ while in a float array only floating value and character array can have only characters. Thus, no array can have values of two data types.
+3.
+There are several important differences between NumPy arrays and the standard Python sequences: NumPy arrays have a fixed size at creation,
+ unlike Python lists (which can grow dynamically). Changing the size of an ndarray will create a new array and delete the original.
+4
+Empty ()This function is used to create an array without initializing the entries of given shape and type.whereas,
+zeros() and ones() are the NumPy library functions to create two different arrays. zeros() function is used to create an array based on the particular shape and type. 
+All array elements are initialized to 0,which is created by the zeros() function. ones() function works like the zeros() function.
+5.
+umpy.fromfunction () function construct an array by executing a function over each coordinate and the resulting array, 
+therefore, has a value fn (x, y, z) at coordinate (x, y, z). Syntax : numpy.fromfunction (function, shape, dtype) Parameters : function : [callable] 
+The function is called with N parameters, where N is the rank of shape.
+6.
+It returns a numpy array of the same shape with values resulting from multiplying values in each array elementwise.
+7.
+his are combinations of functions, operands, and operators. These are used when you are manually calculating. An excel functions always begins with an equal (=) sign. 
+The spread sheet is designed with functions and formulas that will make calculating numerical data easier and convenient .
+8.
+NumPy arrays have a fixed size at creation, unlike Python lists (which can grow dynamically). 
+Changing the size of an ndarray will create a new array and delete the original. 
+The elements in a NumPy array are all required to be of the same data type, and thus will be the same size in memory.
+9.
+It returns a numpy array of the same shape with values resulting from multiplying values in each array elementwise.
+( As both the arrays need to have the same dimensions.)	
+10.
+a.Using masked_where() function: Pass the two array in the function as a parameter then use numpy. ma.
+ masked_where() function in which pass the condition for masking and array to be masked. ...
+b.Using masked_where(), getmask() and masked_array() function: Pass the two array in the function as a parameter then use numpy. ma.
+11.
+The standard deviation is the square root of the average of the squared deviations from the mean, 
+i.e., std = sqrt(mean(x)) , where x = abs(a - a. mean())**2 . The average squared deviation is typically calculated as x. sum() / N , where N = len(x) .
+12.
+a = np.array([[[1,2,3],[4,5,6]],[[7,8,9],[10,11,12]],[[13,14,15],[16,17,18]]])
+a = np.expand_dims(a, axis=0)
+a = np.repeat(a, 4, axis=0)
+
